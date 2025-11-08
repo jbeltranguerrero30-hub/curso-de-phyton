@@ -26,4 +26,4 @@ for estudiante in estudiante:
 equipos = ("nacional","millonarios","santafe","junior","america","tolima")
 print(equipos)
 print("el equipo es",equipos[3]) #Muestra la posicion
-
+#=========
