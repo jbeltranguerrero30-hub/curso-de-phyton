@@ -30,4 +30,8 @@ contraseña = input(" contraseña : su numero de identificacion")
 U = usuario_1 == usuario
 V = contraseña_1 == contraseña
 print("usuario y contraseña:", U and V)
-
+#:::::::::: 13 :::::::
+G = int(input("ingrese un numero:"))
+F = int(input("ingrese otro numero:"))
+G = int(input("ingrese un valor negativo:"))
+print()
