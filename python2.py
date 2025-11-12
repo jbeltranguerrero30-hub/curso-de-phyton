@@ -31,7 +31,15 @@ U = usuario_1 == usuario
 V = contraseña_1 == contraseña
 print("usuario y contraseña:", U and V)
 #:::::::::: 13 :::::::
-G = int(input("ingrese un numero:"))
-F = int(input("ingrese otro numero:"))
-G = int(input("ingrese un valor negativo:"))
-print()
+G = int(input("ingrese un valor:"))
+F = int(input("ingrese un valor:"))
+H = int(input("ingrese un valor negativo:"))
+print ("G=<0 RO F=<0 OR H=<0:", G<=0 or F<=0 or H<=0)
+#::::::::: 15 :::::::::
+valor = int(input("ingrese un valor entre 30 y 50  que sea par"))
+print("el valor esta entre 30-50 y es par:", valor>30 and valor<50 and valor % 2 == 0)
+#::::::::: 17 :::::::::
+PRECIO = float(input("ingresa el precio"))
+PRECIO *= 0.8
+print("El precio con el descuento del 20%:", PRECIO )
+#:::::::::: 19 ::::::::
