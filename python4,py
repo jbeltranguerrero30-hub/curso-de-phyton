@@ -1,0 +1,7 @@
+#Tienes una lista con el orden de canciones de una playlist.
+#Escribe un programa que pida al usuario un número n y rote la lista de canciones n posiciones a la derecha.
+PLAYLIST = ["Deseandote","Tu con el","Perdoname","Amiga"]
+print(PLAYLIST)
+PLAYLIST1=[]
+N = int(input("Escribe cuentas posiciones quieres correr:"))
+#Un chef tiene una lista de ingredientes para una receta.Escribe un programa que pida al usuario los ingredientes que no quiere (pueden ser varios, separados por coma) y genere una nueva lista eliminando los ingredientes prohibidos.
